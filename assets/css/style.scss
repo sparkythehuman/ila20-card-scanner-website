@@ -1,0 +1,14 @@
+---
+---
+
+@import "{{ site.theme }}";
+p {
+  font-weight: 400;
+}
+a {
+  color: #007bff;
+}
+a:hover {
+  color: darken(#007bff, 10%);
+  text-decoration: underline;
+}
